@@ -1,6 +1,6 @@
 /* Style global */
 body {
-    background-color: #000;
+    background-color: #f5f5ab;
     color: #fff;
     font-family: Consolas, monospace;
     margin: 0;
@@ -49,7 +49,7 @@ h1, h2, h3 {
 
 h1:hover, h2:hover, h3:hover {
     background-color: #0f0;
-    color: #000;
+    color: #f5f5ab;
 }
 
 /* Liens */
