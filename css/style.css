@@ -1,10 +1,17 @@
 /* Style global */
 body {
-    background-color: #f5f5ab;
-    color: #777;
+    background-color: #000;
+    color: #fff;
     font-family: Consolas, monospace;
-    margin: 400;
+    margin: 0;
     padding: 0;
+}
+
+/* Conteneur principal pour recentrer le contenu et ajouter des marges */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 /* Header */
@@ -21,6 +28,7 @@ header {
     color: #0f0;
 }
 
+/* Navigation */
 nav ul {
     list-style: none;
     display: flex;
@@ -28,13 +36,32 @@ nav ul {
 }
 
 nav a {
-    color: #777;
+    color: #fff;
     text-decoration: none;
     font-size: 1em;
+    padding: 5px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-nav a:hover {
-    color: #0f0;
+/* Effet de surlignement avec des couleurs différentes */
+nav a:nth-child(1):hover {
+    background-color: #0f0; /* Vert */
+    color: #000;
+}
+
+nav a:nth-child(2):hover {
+    background-color: #00f; /* Bleu */
+    color: #fff;
+}
+
+nav a:nth-child(3):hover {
+    background-color: #f00; /* Rouge */
+    color: #fff;
+}
+
+nav a:nth-child(4):hover {
+    background-color: #ff0; /* Jaune */
+    color: #000;
 }
 
 /* Main content */
@@ -44,12 +71,12 @@ main {
 
 /* Titres */
 h1, h2, h3 {
-    color: #777;
+    color: #0f0;
 }
 
 h1:hover, h2:hover, h3:hover {
     background-color: #0f0;
-    color: #f5f5ab;
+    color: #000;
 }
 
 /* Liens */
@@ -58,7 +85,7 @@ a {
 }
 
 a:hover {
-    color: #777;
+    color: #fff;
 }
 
 /* Footer */
