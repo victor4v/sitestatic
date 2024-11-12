@@ -28,6 +28,13 @@ header {
     color: #0f0;
 }
 
+/* Style pour le logo */
+.logo {
+    height: 50px; /* Ajuste la taille selon ton GIF */
+    width: auto;
+    vertical-align: middle;
+}
+
 /* Navigation */
 nav ul {
     list-style: none;
